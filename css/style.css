@@ -1,0 +1,273 @@
+h1{
+    text-align: center;
+    color: rgb(0, 204, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+
+.tr,.tr1{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid transparent;
+    position: absolute;
+}
+.tr{
+    border-left: 100px solid white;
+    top: 0px;
+    left: 0px; 
+}
+.tr1{
+    border-right: 100px solid white;
+    top: 0px;
+    right: 0px;
+}
+.tr2{
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid transparent;
+    border-top: 15px solid transparent;
+    border-right: 30px solid white;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+   
+
+.flag1,.flag2{
+    width: 20%;
+    height: 100px;
+    background-color: rgb(12, 119, 146);
+    position: absolute;
+    top: 80px;
+    z-index: -1;
+}
+.flag1{
+    left: 5%;
+}
+.flag2{
+    right: 5%;
+}
+   
+
+
+
+    
+/* Верхний блок с контактами и данными*/
+.header{
+    width: 70%;
+    height: 130px;
+    background-color: rgb(0, 204, 255);
+    margin: 0 auto;
+}
+.block-menu{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.nacionaliti{
+    align-self: center;
+    color: white;
+    margin-right: 20%;
+    z-index: 1;
+}
+.nacionaliti p{
+    margin: 0;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 204, 255);
+    font-size: 14px;
+    margin-top: 5px;
+}
+    
+.contact p{
+    margin: 0;
+    color: white;
+    margin-left: 10px;
+}
+.contact span{
+    background-color: white;
+    border-radius: 50%;
+}
+    
+    
+    
+
+   
+    
+.img img{
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 15%;
+    border-style: dashed;
+    padding: 10px;
+}
+.blue-block,.blue-block1{
+    width: 65%;
+    height: 30px;
+    background-color:rgb(0, 204, 255); 
+    position: relative;
+    
+}
+.blue-block{
+    margin: 0px auto 0 auto;
+}
+.blue-block1{
+    margin: 200px auto 0 auto; 
+}
+    
+   
+   
+h2{
+    color: white;
+    padding-left: 150px;
+    padding-top: 3px;
+   
+}
+.radius{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 204, 255);
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: -13px;
+    left: 40px;
+    color: white;
+    text-align: center;
+    
+}
+.icon{
+    padding-top: 8px;
+}
+
+.border{
+    height: 260px;
+    border-left: 2px dashed black;
+    position: absolute;
+    left: 65px;
+    top: 40px;
+}
+.border1{
+     height: 160px;
+     border-left: 2px dashed black;
+    position: absolute;
+     left: 65px;
+     top: 40px;
+}
+   
+.text1{
+    width: 60%;
+    
+    padding-top: 20px;
+    text-align: justify;
+    position: relative;
+    left: 25%;
+    
+   
+    
+}
+.list{
+    margin-left: 50% ;
+    width: 40%;
+}
+
+.string,.string1,.string2{
+    display: flex;
+    position: absolute;
+    left: -121px;
+  
+    width: 450px;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.tochka{
+    position: absolute;
+    left: 182px;
+}
+.string{
+    top: 60px;  
+}
+.string1{
+    top: 150px;
+}
+.string2{
+    top: 250px;
+}
+.work{
+    position: absolute;
+    left: 250px;
+}
+.work h3, .work p{
+    margin: 0;
+    
+}
+
+
+
+.data{
+    width: 150px;
+    height: 20px;
+    background-color: gainsboro;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5px;
+    box-shadow: 3px 3px gray;
+}
+.tochka{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+   
+
+}
+.skill p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+    
+}
+.star{
+    color:rgb(0, 204, 255) ;
+    margin-left: 5px;
+}
+.star1{
+    color: gray;
+    margin-left: 5px;
+}
+
+.skills-box{
+    display: flex;
+    justify-content: center;
+ 
+}
+.skills{
+    position: absolute;
+    left: 130px;
+    
+}
+.skills1{
+    position: absolute;
+    left: 53% ;
+    
+}
+
+    
+   
+
